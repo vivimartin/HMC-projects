@@ -7,12 +7,14 @@ h1 {
     color: #f0b924;
     font-size: 200px; /* Modified font size */
     text-align: center; /* Centered header */
+    line-height: 1; /* Ensures proper alignment of text */
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px; /* Modified font size */
     color: #1e2733; /* Assigned color */
+    text-align: center; /* Centered header */
 }
 
 h5 {
@@ -38,4 +40,3 @@ h5 {
     background-color: #f5f5f5; /* Light gray as a placeholder */
     float: right; /* Positioned to the right of content text */
 }
-
