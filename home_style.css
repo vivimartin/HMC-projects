@@ -2,7 +2,7 @@ body {
     background-color: #d4d0c9; /* Changed background color */
 }
 
-h1 {
+.header > h1 {
     font-family: 'Oi';
     color: #f0b924;
     font-size: 200px; /* Modified font size */
@@ -10,14 +10,14 @@ h1 {
     line-height: 1; /* Ensures proper alignment of text */
 }
 
-h3 {
+header > h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px; /* Modified font size */
     color: #1e2733; /* Assigned color */
     text-align: center; /* Centered header */
 }
 
-h5 {
+header > h5 {
     color: #1e2733; /* Assigned color */
 }
 
