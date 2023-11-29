@@ -1,6 +1,3 @@
-body{
-  background-color: #d4d2be;
-}
 h1{
   font-family: 'Oi';
   color: #f0b924;
@@ -31,7 +28,6 @@ p{
 .content{
   text-align: left;
   margin: 20px 20px 20px 20px;
-  background-color: #d4d2be;
 }
 .footer{
   font-family: 'Montserrat', regular 400;
