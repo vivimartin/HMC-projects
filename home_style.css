@@ -1,3 +1,6 @@
+body{
+  background-color: #d4d2be;
+}
 h1{
   font-family: 'Oi';
   color: #f0b924;
@@ -9,11 +12,24 @@ p{
   font-size: 15px;
 }
 .header{
-  text-allign: center;
+  text-align: center;
   margin: 20px 20px 20px 20px;
 }
+.header > h5{
+  font-family: 'Montserrat', regular 400;
+  font-size: 20px;
+}
+.header > h3{
+  font-family: 'Montserrat', regular 400;
+  font-size: 30px;
+  
+}
+.header > h1{
+  font-size: 70px;
+  color: #f0b924;
+}
 .content{
-  text-allign: left;
+  text-align: left;
   margin: 20px 20px 20px 20px;
   background-color: #d4d2be;
 }
@@ -21,6 +37,5 @@ p{
   font-family: 'Montserrat', regular 400;
   color: #182730;
   font-size: 15px;
-  background-color: #d4d2be;
 }
 
