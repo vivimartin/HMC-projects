@@ -1,0 +1,90 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+/* Styling the header */
+.header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner-image {
+    /* Add styling for the banner image if available */
+}
+
+.header h1, .header h3, .header h5 {
+    color: #333;
+}
+
+/* Styling the content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.main-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.photo-placeholder {
+    width: 3in;
+    height: 4in;
+    background-color: #f5f5f5;
+    margin-left: 20px;
+}
+
+/* Styling the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
