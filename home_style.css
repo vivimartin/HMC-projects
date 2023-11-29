@@ -6,5 +6,21 @@ h1{
 p{
   font-family: 'Montserrat', regular 400;
   color: #182730;
-  font-size: 25px;
+  font-size: 15px;
 }
+.header{
+  text-allign: center;
+  margin: 20px 20px 20px 20px;
+}
+.content{
+  text-allign: left;
+  margin: 20px 20px 20px 20px;
+  background-color: #d4d2be;
+}
+.footer{
+  font-family: 'Montserrat', regular 400;
+  color: #182730;
+  font-size: 15px;
+  background-color: #d4d2be;
+}
+
