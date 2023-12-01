@@ -58,7 +58,7 @@ body, h2, h3, h4, h5, h6, p, ul {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #f2d635;
+    color: #d6bb1e;
     font-family: 'Oi', serif;
 }
 
@@ -84,6 +84,7 @@ body, h2, h3, h4, h5, h6, p, ul {
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
+    max-height: 500px;
 }
 
 .main-content {
@@ -91,11 +92,11 @@ body, h2, h3, h4, h5, h6, p, ul {
     text-align: left;
 }
 .main-content h1{
-    color: #f2d635;
+    color: #d6bb1e;
     font-family: 'Oi', serif;
     margin-bottom: 10px;
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 70px;
 }
 .main-content p{
     color: #070838;
