@@ -85,8 +85,16 @@ body, h2, h3, h4, h5, h6, p, ul {
 }
 
 .main-content {
-    max-width: 600px;
+    max-width: 500px;
     text-align: left;
+}
+.main-content h1{
+    color: #f2d635;
+    font-family: 'Oi', serif;
+}
+.main-content p{
+    color: #070838;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .photo-placeholder {
@@ -118,4 +126,5 @@ body, h2, h3, h4, h5, h6, p, ul {
 .footer-links ul li a {
     color: #070838;
     text-decoration: none;
+    font-size: 15px;
 }
