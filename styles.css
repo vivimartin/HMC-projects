@@ -1,4 +1,7 @@
-/* Resetting default margin and padding */
+body{
+    background-color: #e0dccc;
+}
+
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
@@ -6,8 +9,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Styling the navigation bar */
 .navbar {
-    background-color: #333;
-    color: #fff;
+    background-color: #f2d635;
+    color: #070838;
     text-align: center;
     padding: 10px 0;
 }
@@ -26,26 +29,45 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 .navbar ul li a {
     display: block;
-    color: #fff;
+    color: #070838;
     text-decoration: none;
     padding: 10px 20px;
 }
 
 .navbar ul li a:hover {
-    background-color: #555;
+    background-color: #e8d566;
 }
 /* Styling the header */
 .header {
-    text-align: center;
-    padding: 50px 0;
+    position: relative;
 }
 
 .banner-image {
-    /* Add styling for the banner image if available */
+    /* Placeholder for the banner image */
+    /* Replace the background color with your image */
+    background-image: url(https://64.media.tumblr.com/630dade90218f17b86c905a81b49307d/tumblr_pul9fipFgY1wnjxxqo2_1280.png);
+    height: 300px; /* Set your image height */
+    background-size: cover; /* Cover the entire space */
+    background-position: center; /* Center the image */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f2d635;
+}
+
+.header-content h1,
+.header-content h3,
+.header-content h5 {
+    margin-bottom: 10px;
 }
 
 .header h1, .header h3, .header h5 {
-    color: #333;
+    color: #070838;
 }
 
 /* Styling the content */
@@ -70,8 +92,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Styling the footer */
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #e8d566;
+    color: #070838;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -87,6 +109,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .footer-links ul li a {
-    color: #fff;
+    color: #070838;
     text-decoration: none;
 }
