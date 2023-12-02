@@ -58,7 +58,7 @@ body, h2, h3, h4, h5, h6, p, ul {
 
 .header-content {
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
