@@ -85,10 +85,13 @@ body, h2, h3, h4, h5, h6, p, ul {
 /* Styling the content */
 .content {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 400px;
-    max-height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    max-height: 636px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .main-content {
@@ -108,8 +111,8 @@ body, h2, h3, h4, h5, h6, p, ul {
 }
 
 .photo-placeholder {
-    width: 30px;
-    height: 40px;
+    width: 300px;
+    height: 400px;
     margin-left: 20px;
 }
 
