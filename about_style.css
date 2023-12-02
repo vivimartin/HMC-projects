@@ -58,7 +58,7 @@ body, h2, h3, h4, h5, h6, p, ul {
 
 .header-content {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -69,7 +69,7 @@ body, h2, h3, h4, h5, h6, p, ul {
 .header-content h1,
 .header-content h3,
 .header-content h5 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .header h1 {
     font-size: 100px;
@@ -87,7 +87,7 @@ body, h2, h3, h4, h5, h6, p, ul {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
+    padding: 400px;
     max-height: 500px;
 }
 
