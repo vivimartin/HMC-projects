@@ -44,12 +44,12 @@ body, h2, h3, h4, h5, h6, p, ul {
 }
 
 .banner-image {
-    /* Placeholder for the banner image */
-    /* Replace the background color with your image */
-    background-image: url(banner.png);
-    height: 600px; /* Set your image height */
-    background-size: cover; /* Cover the entire space */
-    background-position: center; /* Center the image */
+    background-image: url('banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    /* Center the image */
 }
 
 .header-content {
