@@ -39,124 +39,71 @@ body, h2, h3, h4, h5, h6, p, ul {
     background-color: #e8d566;
 }
 /* Styling the header */
-.banner-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .header {
-    text-align: center;
-    background-color: #000; /* Set a background color for visibility */
-}
-
-.header-content {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #d6bb1e;
-    font-family: 'Oi', serif;
-    z-index: 1; /* Ensure the text is above the image */
 }
 
-.header-content h1,
+.banner-image {
+    /* Placeholder for the banner image */
+    /* Replace the background color with your image */
+    background-color: url(banner.jpg);
+    /* Add background-image property with your image URL */
+    /* background-image: url('your-image-url.jpg'); */
+    height: 600px; /* Set your image height */
+    background-size: cover; /* Cover the entire space */
+    background-position: center; /* Center the image */
+}
+
+.header-content h1{
+    color: #f2d635
+    font-family: 'Oi', serif;
+    font-weight: lighter;
+}
+.header-content h3,
+.header-content h5,{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #070838;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header-content h3,
 .header-content h5 {
     margin-bottom: 10px;
     font-weight: lighter;
 }
+
 /* Styling the content */
 .content {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
-    max-width: 1200px; /* Adjust max-width as needed */
-    margin: 0 auto; /* Center the content horizontally */
 }
 
 .main-content {
     max-width: 500px;
     text-align: left;
 }
-
-.main-content h1 {
-    margin-bottom: 10px;
-    font-weight: lighter;
-    font-size: 70px;
-}
-
-.photo-placeholder img {
-    max-width: 100%;
-    height: auto;
-}.banner-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.header {
-    text-align: center;
-    background-color: #000; /* Set a background color for visibility */
-    padding: 40px 0; /* Add padding to separate the header from content */
-    margin-bottom: 20px; /* Adjust margin */
-}
-
-.header-content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #d6bb1e; /* Adjust font color */
+.main-content h1{
+    color: #f2d635;
     font-family: 'Oi', serif;
-    z-index: 1; /* Ensure the text is above the image */
+    font-size: 50px;
+}
+.main-content p{
+    color: #070838;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
 }
 
-.header-content h1 {
-    margin-bottom: 20px; /* Increase margin */
-    font-size: 80px; /* Adjust font size */
+.photo-placeholder {
+    width: 30px;
+    height: 40px;
+    margin-left: 20px;
 }
-
-.header-content h3,
-.header-content h5 {
-    margin-bottom: 10px; /* Adjust margins */
-    font-weight: lighter; /* Set font weight */
-    font-family: 'Montserrat', sans-serif; /* Set font family */
-    color: #070838; /* Adjust font color */
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px;
-    max-width: 1200px; /* Adjust max-width as needed */
-    margin: 0 auto; /* Center the content horizontally */
-}
-
-.main-content {
-    max-width: 500px;
-    text-align: left;
-}
-
-.main-content h1 {
-    margin-bottom: 20px; /* Increase margin */
-    font-weight: lighter; /* Set font weight */
-    font-size: 60px; /* Adjust font size */
-    font-family: 'Oi', serif; /* Set font family */
-    color: #d6bb1e; /* Adjust font color */
-}
-
-.main-content p {
-    font-family: 'Montserrat', sans-serif; /* Set font family */
-    color: #070838; /* Adjust font color */
-    line-height: 1.6; /* Adjust line height */
-}
-
-.photo-placeholder img {
-    max-width: 100%;
-    height: auto;
-}
-
 /* Styling the footer */
 .footer {
     background-color: #e8d566;
