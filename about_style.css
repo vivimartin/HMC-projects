@@ -1,6 +1,42 @@
-/* Your existing styles */
-body {
+body{
     background-color: #e0dccc;
+}
+
+body, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the navigation bar */
+.navbar {
+    background-color: #f2d635;
+    color: #070838;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #070838;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar ul li a:hover {
+    background-color: #e8d566;
 }
 
 header {
