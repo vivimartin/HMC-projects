@@ -38,45 +38,102 @@ body, h2, h3, h4, h5, h6, p, ul {
 .navbar ul li a:hover {
     background-color: #e8d566;
 }
+/* Styling the header */
+.header {
+    position: relative;
+}
 
-header {
+.banner-image {
+    background-image: url('banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    width: 100%; /* Ensures the container spans the entire width */
+    display: flex;
+    flex-direction: column;
+    /* Center the image */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    background-color: #e0dccc;
-    padding: 20px 0;
+    color: #d6bb1e;
+    font-family: 'Oi', serif;
+}
+
+.header-content h1,
+.header-content h3,
+.header-content h5 {
+    margin-bottom: 10px;
+}
+.header h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.header h3, .header h5 {
+    color: #070838;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling the content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    max-height: 500px;
 }
 
 .main-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
 }
-
-h1{
+.main-content h1{
+    color: #d6bb1e;
     font-family: 'Oi', serif;
-    color: #f2d635;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 70px;
 }
-p {
+.main-content p{
+    color: #070838;
     font-family: 'Montserrat', sans-serif;
-    color: #070838;
-}
-.body-text p {
-    color: #070838;
-    font-size: 25px;
-    line-height: 1.6;
 }
 
 .photo-placeholder {
-    width: calc(25% - 20px); /* 25% width of the container minus margin */
-    height: 0;
-    padding-top: calc((100% / 3) * 4); /* 3x4 aspect ratio */
-    background-color: #ccc; /* Placeholder color */
+    width: 30px;
+    height: 40px;
+    margin-left: 20px;
 }
 
-/* Bootstrap Carousel styling */
-.carousel-inner p {
+/* Styling the footer */
+.footer {
+    background-color: #e8d566;
     color: #070838;
-    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links ul li a {
+    color: #070838;
+    text-decoration: none;
+    font-size: 15px;
 }
