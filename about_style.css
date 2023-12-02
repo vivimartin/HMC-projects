@@ -48,7 +48,7 @@ body, h2, h3, h4, h5, h6, p, ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 130vh;
 
     width: 100%; /* Ensures the container spans the entire width */
     display: flex;
