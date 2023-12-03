@@ -38,6 +38,8 @@ body, h2, h3, h4, h5, h6, p, ul {
 .navbar ul li a:hover {
     background-color: #e8d566;
 }
+
+
 /* Styling the header */
 .header {
     position: relative;
@@ -48,7 +50,7 @@ body, h2, h3, h4, h5, h6, p, ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 130vh;
+    height: 100%;
 
     width: 100%; /* Ensures the container spans the entire width */
     display: flex;
