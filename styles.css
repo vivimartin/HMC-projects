@@ -38,10 +38,7 @@ body, h2, h3, h4, h5, h6, p, ul {
 .navbar ul li a:hover {
     background-color: #e8d566;
 }
-
-
 /* Styling the header */
-
 .header {
     position: relative;
 }
@@ -111,8 +108,6 @@ body, h2, h3, h4, h5, h6, p, ul {
 .main-content p{
     color: #070838;
     font-family: 'Montserrat', sans-serif;
-}
-
 }
 .photo-placeholder {
     width: 300px;
