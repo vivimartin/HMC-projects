@@ -1,3 +1,38 @@
+body, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the product container */
+.product-container {
+    display: flex;
+}
+
+/* Style each product */
+.product {
+    flex: 1; /* Equal width for each product */
+    text-align: center;
+    margin: 10px; /* Adjust spacing between products */
+}
+
+.product img {
+    width: 300px; /* Minimum width for the product image */
+    height: 300px; /* Maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border: 1px solid #ccc; /* Optional border for images */
+    margin-bottom: 10px; /* Spacing between image and details */
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+
+
 body{
     background-color: #e0dccc;
 }
