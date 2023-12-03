@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HMC-Projects. Certificates.</title>
+    <title>HMC-Projects. Drawings.</title>
 
     <link rel="stylesheet" type="text/css" href="certificates_style.css">
     <link rel="stylesheet" type="text/css" href="banner.png">
@@ -12,7 +12,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <ul>
-            <li><a href="trial.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="activities.html">Activities</a></li>
             <li><a href="certificates.html">Certificates</a></li>
@@ -32,39 +32,82 @@
             <h3>all my diplomas/certificates from 2020 to this day</h3>
             <h5>made by: Martin Viviana-Delia<br>HMC Projects Candidate</h5>
         </div>
-   <div class="gallery">
-        <!-- Replace these placeholders with your actual images -->
-        <div class="art-piece">
-            <img src="drawing1.jpg" alt="Drawing 1">
-            <p>Drawing 1</p>
-        </div>
-        <!-- Repeat the above structure for all 20 drawings -->
-        <!-- Example:
-        <div class="art-piece">
-            <img src="drawing2.jpg" alt="Drawing 2">
-            <p>Drawing 2</p>
-        </div>
-        ...
-        -->
+   <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Mountains</h4>
+      <p>Lorem ipsum dolor..</p>
     </div>
-        <!-- Footer -->
-    <div class="footer">
-        <div class="contact-info">
-            <p>email: martinviviana0707@gmail.com | phone: 123-456-7890</p>
-        </div>
-        <div class="footer-links">
-            <ul>
-                <li><a href="trial.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="certificates.html">Certificates</a></li>
-                <li><a href="drawings.html">Drawings</a></li>
-                <li><a href="contacts.html">Contact Me</a></li>
-            </ul>
-        </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
     </div>
-</body>
-</html>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
   
 </body>
 </html>
